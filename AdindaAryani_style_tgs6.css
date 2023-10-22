@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+img {
+    width: 20%; /*ukuran gambar*/
+   
+}
+
+/*paragraf*/
+p {
+    background-color: white;
+    color: black;
+    font-family: 'Franklin Gothic';
+    text-align: justify;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+}
+
+ul {
+    padding-left: 64px;
+    color: black;
+    font-family: 'Franklin Gothic';
+}
+
+/*link*/
+a {
+    color: white;
+}
+
+table {
+    padding-left: 10px;
+    width: 20%;
+    border-left: 2px solid yellow;
+    margin-left: 12px;
+    font-family: 'Franklin Gothic';
+}
+
+
+.wrapper-content {
+    background: white;
+    text-align: center;
+    color: black;
+    
+}
+
+/*class*/
+.pback {
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.back {
+    background-image: url(images/wayangbackground.jpeg);
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 40%;
+    background-attachment: fixed;
+}
+
+.head {
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.head2 {
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+
+.par {
+    background-color: black;
+    color: white;
+    padding-top: 0;
+    padding-left: 10px;
+    border-left: 2px solid yellow;
+    margin-left: 12px;
+}
+
+.wrapper-list {
+    background-color: black;
+
+}
+
