@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tugas7_AdindaAryani_style.css">
+  <title>Masjid At-Thohir></title>
+  <link rel="Icon" type="images/x-icon" href="images/masjidlogo.png">
+</head>
+</style>
+<body>
+  <img src="images/profil.jpg" style="height: 400px; width: 800px; margin-left: 5%; margin-top: 5%;">
+
+<div class="back"> 
+  <h1 id="A">
+    Masjid At-Thohir 
+    </div>
+
+    <h3 id="A"> Sejarah </h3>
+    <p> Masjid At-Thohir didirikan Erick Thohir bersama dengan kakaknya, pemilik Adaro Indonesia, Boy Thohir sebagai bentuk 
+       pengabdian terhadap almarhum ayahnya. asjid At Thohir, masjid ini dibangun pada sebuah area berbentuk seperti semenanjung 
+       yang berbatasan langsung dengan sungai. Posisi ini memiliki potensi untuk bisa memandang ke segala arah. Konsep ini sejalan 
+       dengan islam rahmatan lil 'alamin yang merangkul dan mengayomi semesta dan isinya.<br> Kubah terbesar yang menjadi bagian 
+       teratas atau kepala sebuah bangunan merupakan lambang dari ayah sebagai pemimpin keluarga atau imam bagi putra-putri serta
+       para cucu. Keberadaan putra-putri dan para cucu sendiri dilambangkan dengan tiga kubah berukuran sedang dan beberapa kubah 
+       kecil di sekitarnya. <br> Sementara itu, simbol ibu yang menjadi bagian terpenting dan pemersatu seluruh anggota keluarga,
+       diimplementasikan pada pondasi bangunan masjid yang menjadi penopang unsur bangunan lainnya. Sedangkan, empat menara 
+       melambangkan empat sisi arah mata angin yang melambangkan syiar Islam ke seluruh penjuru.Masjid ini diresmikan sebulan 
+       sebelum Ramadhan Tahun 1443 H, tepatnya pada tanggal 9 Maret 2022 oleh Presiden RI, Bapak Joko Widodo.
+   </p>
+ 
+   <h3 id="A"> 5 Keunikan Masjid At-Thohir</h3>
+   <p>
+     Adapun  Keunikan Masjid At-Thohir adalah sebagai berikut:
+   </p>
+   <ol class="a"> 
+   <li>Nuansa Putih dari berbagai sisi</li>
+   <li>Lampu warna-warni yang menghiasi dinding masjid</li>
+   <li>29 Kubah dengan ukuran yang berbeda</li>
+   <li>Area imam yang dihiasi kaligrafi Asmaul Husna</li>
+   <li>Nama masjid yang dihiasi air mancur</li>
+   </ol>
+ 
+   <h3 id="A">
+     Visi & Misi
+     </h3>
+   <div id="C">
+     <h2>Visi</h2>
+     <p class="visimisi">
+       Menjadi Menjadi pusat dakwah yang modern, yang mencerdaskan, yang mencerahkan, dan tempat yang 
+       teduh untuk menjalin dan mempererat tali silaturahmi, mempererat persaudaraan antarsesama umat manusia, 
+       dan berkontribusi untuk membangun peradaban Indonesia yang lebih baik
+     </p>
+   
+     <h2>Misi</h2>
+     <p class="visimisi">
+       memberi peran penting dan bermanfaat luas, dan juga bisa memakmurkan masyarakat luas
+     </p>
+     <ul class="visimisi">
+       <li id="li">Memperkuat toleransi</li>
+       <li id="li">Memperkuat moderasi beragama </li>
+       <li id="li">Membangun peradaban Indonesia yang lebih baik</li>
+     </ul>
+   </div>    
+     
+     <h3 id="A">Kegiatan</h3>
+     <div class="slideshow-container">
+       
+       <div class="mySlides fade">
+         <div class="numbertext">1 / 5</div>
+         <img src="images/kajian.jpeg" style="width:65%">
+         <div class="text">Kajian</div>
+       </div>
+       
+       <div class="mySlides fade">
+         <div class="numbertext">2 / 5</div>
+         <img src="images/khazanah.jpeg" style="width:65%">
+         <div class="text">Khazanah Fest</div>
+       </div>
+       
+       <div class="mySlides fade">
+         <div class="numbertext">3 / 5</div>
+         <img src="images/weddingg.jpeg" style="width:65%">
+         <div class="tex">Akad dan Resepsi </div>
+       </div>
+     
+       <div class="mySlides fade">
+         <div class="numbertext">4 / 5</div>
+         <img src="images/majelistaklim.jpeg" style="width:65%">
+         <div class="text">Masjelis Taklim</div>
+       </div>
+     
+       <div class="mySlides fade">
+         <div class="numbertext">5 / 5</div>
+         <img src="images/TPQ.jpeg" style="width:65%">
+         <div class="text">TPQ</div>
+       </div>
+     
+       <a class="prev" onclick="plusSlides(-1)">❮</a>
+       <a class="next" onclick="plusSlides(1)">❯</a>
+       
+       
+       <br>
+       
+       <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span> 
+         <span class="dot" onclick="currentSlide(2)"></span> 
+         <span class="dot" onclick="currentSlide(3)"></span> 
+         <span class="dot" onclick="currentSlide(4)"></span>
+         <span class="dot" onclick="currentSlide(5)"></span> 
+       </div>
+       
+       <script>
+       let slideIndex = 1;
+       showSlides(slideIndex);
+       
+       function plusSlides(n) {
+         showSlides(slideIndex += n);
+       }
+       
+       function currentSlide(n) {
+         showSlides(slideIndex = n);
+       }
+       
+       function showSlides(n) {
+           let i;
+           let slides = document.getElementsByClassName("mySlides");
+           let dots = document.getElementsByClassName("dot");
+           if (n > slides.length) {slideIndex = 1}    
+           if (n < 1) {slideIndex = slides.length}
+           for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";  
+           }
+           for (i = 0; i < dots.length; i++) {
+               dots[i].className = dots[i].className.replace(" active", "");
+           }
+           slides[slideIndex-1].style.display = "block";  
+           dots[slideIndex-1].className += " active";
+       }
+
+      </script>
+<p class="Nama">Adinda Aryani 11210251000008</p>
+</body>
+</html>
